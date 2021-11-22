@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center_vertical"
+    android:background="@color/black">
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"/>
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:layout_height="50pt"
+            android:layout_width="50pt"
+            android:id="@+id/Bt1"
+            android:layout_margin="2dp"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:backgroundTint="@color/red"/>
+
+        <Button
+            android:layout_height="50pt"
+            android:layout_width="50pt"
+            android:id="@+id/Bt2"
+            android:layout_margin="2dp"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:backgroundTint="@color/red"/>
+
+        <Button
+            android:layout_height="50pt"
+            android:layout_width="50pt"
+            android:id="@+id/Bt3"
+            android:layout_margin="2dp"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:backgroundTint="@color/red"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:layout_height="50pt"
+            android:layout_width="50pt"
+            android:id="@+id/Bt4"
+            android:layout_margin="2dp"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:backgroundTint="@color/red"/>
+
+        <Button
+            android:layout_height="50pt"
+            android:layout_width="50pt"
+            android:id="@+id/Bt5"
+            android:layout_margin="2dp"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:backgroundTint="@color/red"/>
+
+        <Button
+            android:layout_height="50pt"
+            android:layout_width="50pt"
+            android:id="@+id/Bt6"
+            android:layout_margin="2dp"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:backgroundTint="@color/red"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:layout_height="50pt"
+            android:layout_width="50pt"
+            android:id="@+id/Bt7"
+            android:layout_margin="2dp"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:backgroundTint="@color/red"/>
+
+        <Button
+            android:layout_height="50pt"
+            android:layout_width="50pt"
+            android:id="@+id/Bt8"
+            android:layout_margin="2dp"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:backgroundTint="@color/red"/>
+
+        <Button
+            android:layout_height="50pt"
+            android:layout_width="50pt"
+            android:id="@+id/Bt9"
+            android:layout_margin="2dp"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:backgroundTint="@color/red"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_margin="10dp">
+
+        <Button
+            android:id="@+id/Bt10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/green"
+            android:text="რესტარტი"
+            android:textColor="@color/black" />
+
+
+    </TableRow>
+
+</TableLayout>
